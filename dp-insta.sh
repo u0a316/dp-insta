@@ -1,5 +1,5 @@
 function main() {
- eval ''
- eval 'python3 dp-insta.sh'
+ eval 'cd $(dirname $0)'
+ eval 'python3 dp-insta.py'
  }
  main
